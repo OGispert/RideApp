@@ -1,14 +1,14 @@
 //
-//  RidaAppApp.swift
-//  RidaApp
+//  RideAppApp.swift
+//  RideApp
 //
-//  Created by ogisq on 9/23/22.
+//  Created by Othmar Gispert on 9/23/22.
 //
 
 import SwiftUI
 
 @main
-struct RidaAppApp: App {
+struct RideAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

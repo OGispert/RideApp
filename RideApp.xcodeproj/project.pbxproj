@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E69E41B628DE2D6500C11AA0 /* RidaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41B528DE2D6500C11AA0 /* RidaAppApp.swift */; };
+		E69E41B628DE2D6500C11AA0 /* RideAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41B528DE2D6500C11AA0 /* RideAppApp.swift */; };
 		E69E41B828DE2D6500C11AA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41B728DE2D6500C11AA0 /* ContentView.swift */; };
 		E69E41BA28DE2D6700C11AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69E41B928DE2D6700C11AA0 /* Assets.xcassets */; };
 		E69E41BD28DE2D6700C11AA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69E41BC28DE2D6700C11AA0 /* Preview Assets.xcassets */; };
+		E69E41C428DE375300C11AA0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41C328DE375300C11AA0 /* MapView.swift */; };
+		E69E41CD28DE5F9E00C11AA0 /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41CC28DE5F9E00C11AA0 /* DistanceManager.swift */; };
+		E69E41CF28DE77BD00C11AA0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41CE28DE77BD00C11AA0 /* SettingsView.swift */; };
+		E69E41D128DE940200C11AA0 /* SettingsDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41D028DE940200C11AA0 /* SettingsDefault.swift */; };
+		E69E41D528DE963100C11AA0 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41D428DE963100C11AA0 /* SettingsManager.swift */; };
+		E69E41D728DE9A9C00C11AA0 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E41D628DE9A9C00C11AA0 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E69E41B228DE2D6500C11AA0 /* RidaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RidaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E69E41B528DE2D6500C11AA0 /* RidaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidaAppApp.swift; sourceTree = "<group>"; };
+		E69E41B228DE2D6500C11AA0 /* RideApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69E41B528DE2D6500C11AA0 /* RideAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideAppApp.swift; sourceTree = "<group>"; };
 		E69E41B728DE2D6500C11AA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E69E41B928DE2D6700C11AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69E41BC28DE2D6700C11AA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E69E41C328DE375300C11AA0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E69E41CC28DE5F9E00C11AA0 /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
+		E69E41CE28DE77BD00C11AA0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E69E41D028DE940200C11AA0 /* SettingsDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDefault.swift; sourceTree = "<group>"; };
+		E69E41D428DE963100C11AA0 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		E69E41D628DE9A9C00C11AA0 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +47,7 @@
 		E69E41A928DE2D6500C11AA0 = {
 			isa = PBXGroup;
 			children = (
-				E69E41B428DE2D6500C11AA0 /* RidaApp */,
+				E69E41B428DE2D6500C11AA0 /* RideApp */,
 				E69E41B328DE2D6500C11AA0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +55,21 @@
 		E69E41B328DE2D6500C11AA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E69E41B228DE2D6500C11AA0 /* RidaApp.app */,
+				E69E41B228DE2D6500C11AA0 /* RideApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E69E41B428DE2D6500C11AA0 /* RidaApp */ = {
+		E69E41B428DE2D6500C11AA0 /* RideApp */ = {
 			isa = PBXGroup;
 			children = (
-				E69E41B528DE2D6500C11AA0 /* RidaAppApp.swift */,
-				E69E41B728DE2D6500C11AA0 /* ContentView.swift */,
+				E69E41B528DE2D6500C11AA0 /* RideAppApp.swift */,
+				E69E41D228DE959700C11AA0 /* Helpers */,
+				E69E41D328DE95A300C11AA0 /* Views */,
 				E69E41B928DE2D6700C11AA0 /* Assets.xcassets */,
 				E69E41BB28DE2D6700C11AA0 /* Preview Content */,
 			);
-			path = RidaApp;
+			path = RideApp;
 			sourceTree = "<group>";
 		};
 		E69E41BB28DE2D6700C11AA0 /* Preview Content */ = {
@@ -67,12 +80,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E69E41D228DE959700C11AA0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E69E41D028DE940200C11AA0 /* SettingsDefault.swift */,
+				E69E41D428DE963100C11AA0 /* SettingsManager.swift */,
+				E69E41CC28DE5F9E00C11AA0 /* DistanceManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E69E41D328DE95A300C11AA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E69E41B728DE2D6500C11AA0 /* ContentView.swift */,
+				E69E41C328DE375300C11AA0 /* MapView.swift */,
+				E69E41CE28DE77BD00C11AA0 /* SettingsView.swift */,
+				E69E41D628DE9A9C00C11AA0 /* RingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E69E41B128DE2D6500C11AA0 /* RidaApp */ = {
+		E69E41B128DE2D6500C11AA0 /* RideApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E69E41C028DE2D6700C11AA0 /* Build configuration list for PBXNativeTarget "RidaApp" */;
+			buildConfigurationList = E69E41C028DE2D6700C11AA0 /* Build configuration list for PBXNativeTarget "RideApp" */;
 			buildPhases = (
 				E69E41AE28DE2D6500C11AA0 /* Sources */,
 				E69E41AF28DE2D6500C11AA0 /* Frameworks */,
@@ -82,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = RidaApp;
+			name = RideApp;
 			productName = RidaApp;
-			productReference = E69E41B228DE2D6500C11AA0 /* RidaApp.app */;
+			productReference = E69E41B228DE2D6500C11AA0 /* RideApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E69E41AD28DE2D6500C11AA0 /* Build configuration list for PBXProject "RidaApp" */;
+			buildConfigurationList = E69E41AD28DE2D6500C11AA0 /* Build configuration list for PBXProject "RideApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E69E41B128DE2D6500C11AA0 /* RidaApp */,
+				E69E41B128DE2D6500C11AA0 /* RideApp */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +172,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E69E41B828DE2D6500C11AA0 /* ContentView.swift in Sources */,
-				E69E41B628DE2D6500C11AA0 /* RidaAppApp.swift in Sources */,
+				E69E41D128DE940200C11AA0 /* SettingsDefault.swift in Sources */,
+				E69E41C428DE375300C11AA0 /* MapView.swift in Sources */,
+				E69E41D528DE963100C11AA0 /* SettingsManager.swift in Sources */,
+				E69E41D728DE9A9C00C11AA0 /* RingView.swift in Sources */,
+				E69E41CF28DE77BD00C11AA0 /* SettingsView.swift in Sources */,
+				E69E41B628DE2D6500C11AA0 /* RideAppApp.swift in Sources */,
+				E69E41CD28DE5F9E00C11AA0 /* DistanceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RidaApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RideApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 2M2X6N2QHB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RidaApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RideApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 2M2X6N2QHB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E69E41AD28DE2D6500C11AA0 /* Build configuration list for PBXProject "RidaApp" */ = {
+		E69E41AD28DE2D6500C11AA0 /* Build configuration list for PBXProject "RideApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E69E41BE28DE2D6700C11AA0 /* Debug */,
@@ -331,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E69E41C028DE2D6700C11AA0 /* Build configuration list for PBXNativeTarget "RidaApp" */ = {
+		E69E41C028DE2D6700C11AA0 /* Build configuration list for PBXNativeTarget "RideApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E69E41C128DE2D6700C11AA0 /* Debug */,
